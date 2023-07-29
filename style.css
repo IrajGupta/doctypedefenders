@@ -1,0 +1,96 @@
+html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+}
+h1 {
+  font-family:Arial, Helvetica, sans-serif;
+  color: white;
+  text-align: right;
+}
+.favicon{
+  height:16px;
+  width:40px;
+}
+
+.UserIcon{
+  width: 50px;
+  height: auto;
+  transform: translate(115px,-5px)
+}
+
+body{
+  background-image: url("Bgimg.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+}
+.name-NRIC[type=text], .name-NRIC[type=name] {
+  width: 90%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #cbccce;
+  border-radius:5px;
+}
+.name-password[type=text], .name-password[type=password] {
+  width: 90%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #cbccce;
+  border-radius:5px;
+}
+.container{
+  align: left;
+  background-color: white;
+  border-radius: 8px;
+  width: 300px;
+  transform: translate(75px,180px)
+}
+button{
+  background-color: green;
+  color: white;
+  padding: 16px;
+  opacity: 0.8;
+  position: top;
+  bottom: 23px;
+  right: 28px;
+  width: 280px;
+  font-size:30px;
+  border-radius:10px;
+  font-family:montserrat;
+}
+.login-box{
+  padding: 10px;
+}
+.LOGIN{
+  color:#208fdf;
+  font-family:montserrat;
+
+}
+.CITIZEN{
+  color:#208fdf;
+  font-family:montserrat;
+}
+.SAVEUS{
+  font-size:120px;
+  color:white;
+  font-family:montserrat;
+  position: relative;
+  margin-left: 32%;
+  transform: translateY(-150px)
+}
+
+.HELPUS{
+  font-size:60px;
+  color:white;
+  font-family:montserrat;
+  position: relative;
+  margin-left: 32%;
+  transform: translateY(-250px)
+}

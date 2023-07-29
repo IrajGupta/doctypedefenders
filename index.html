@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>NASA Communications</title>
+  <link class="favicon" href="nasa-removebg-preview.png" rel="shortcut icon" type="image/png"/>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class="container">
+    <div class="login-box">
+      <div class="user-icon">
+        <img class="UserIcon" src="UserIcon.png">
+        <h1 class="CITIZEN" align="center">CITIZEN</h1>
+        <h1 class="LOGIN" align="center">LOGIN</h1>
+        <form class="login" method="post" onsubmit="authenticate(event);">
+          <input class="name-NRIC" id="nric" type="text" name="nric" placeholder="Social Security Number" required><br>
+          <input class="name-password" id="password" type="password" name="password" placeholder="Password" required><br>
+          <button type="submit" class="submit">SUBMIT</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div class="HELPUS">
+    <h1>HELP US.</h1>
+  </div>
+  <div class="SAVEUS">
+    <h1 class="SAVEUS" align="right"> SAVE US.</h1>
+  </div>
+  <script>
+    function authenticate(event) {
+      event.preventDefault(); 
+      var validNrics = ["403-22-506", "123-65-345", "964-23-546"];
+      var validPassword = "admin123";
+
+      var enteredNric = document.getElementById("nric").value.trim().toUpperCase();
+      var enteredPassword = document.getElementById("password").value.trim();
+
+      if (validNrics.includes(enteredNric) && enteredPassword === validPassword) {
+        alert("Authentication successful!");
+        setTimeout(function() {
+          window.location.href = "Dog.html";
+        }, 1000);
+      } else {
+        alert("Invalid SSC or password. Please try again.");
+      }
+    }
+  </script>
+</body>
+
+</html>

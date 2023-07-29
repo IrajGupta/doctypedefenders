@@ -1,0 +1,94 @@
+body {
+margin: 0;
+padding: 0;
+background-image:url("us.jpeg");
+background-size: cover;
+background-repeat: no-repeat;
+background-color:black;
+}
+
+header {
+  background-color: navy;
+  display: flex;
+  justify-content: space-between;
+  height:35px;
+}
+
+.logo {
+  color: #fff;
+  width: 30%;
+  display: inline-block;
+  margin-top: 5px;
+  margin-left: 8px;
+}
+
+.nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  
+}
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: black;
+  color: #fff;
+  position: absolute;
+  bottom:0;
+  height:50px;
+  width:100%;
+}
+
+
+.nav li {
+display: inline;
+}
+
+.nav a {
+  text-decoration: none;
+  color: white;
+  padding: 8px;
+  display: inline-block;
+  font-family: montserrat;
+  margin-left: -5px;
+}
+
+.nav a:hover {
+  cursor: pointer;
+  background-color: white;
+  color: navy;
+}
+.nav a.active{
+  background-color: white;
+  color: navy;
+}
+
+.footer {
+margin-top: 150px; width: 100%;
+padding: 100px 15%; background: #333; color: #efefef;
+display: flex;
+}
+.footer div{
+text-align: center;
+}
+.col-2{
+flex-grow: 2;
+}
+.footer div h3{
+  font-weight:300;
+  margin-bottom:30px;
+  letter-spacing:1;
+}
+.foot ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  
+}
+
+
+
+.nasaimg{
+  transform: translate(-420px,-200px);
+  
+}
